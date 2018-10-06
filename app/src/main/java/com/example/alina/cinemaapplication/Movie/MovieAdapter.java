@@ -28,14 +28,13 @@ public class MovieAdapter  {
         return new ViewHolder(v);
     }
 
-    @Override
     public void onBindViewHolder(MovieAdapter.ViewHolder holder, int position) {
         Movie movie = movieList.get(position);
        // holder.textId.setText(cinema.getId());
        // holder.textName.setText(cinema.getName());
     }
 
-    @Override
+   
     public int getItemCount() {
         return movieList.size();
     }
